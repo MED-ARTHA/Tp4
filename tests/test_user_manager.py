@@ -1,6 +1,6 @@
 import pytest
 
-from app import UserManager
+from app.user_manager import UserManager
 
 
 def test_add_user():
@@ -28,4 +28,3 @@ def test_remove_unknown_user():
 
     with pytest.raises(ValueError):
         manager.remove_user("saad")
-        
