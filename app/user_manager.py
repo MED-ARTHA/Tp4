@@ -30,8 +30,4 @@ class UserManager:
     def count_users(self):
         """Return total number of users."""
         return len(self._users)
-
-
-def count_total_users(users):
-    """Return the total number of users in a given collection."""
-    return len(users)
+    
